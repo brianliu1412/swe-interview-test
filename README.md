@@ -1,11 +1,30 @@
 # SWE INTERVIEW TEST 
-THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
+## Step 1: Move to the Backend directory (assuming you're in the swe-interview-test folder)
 
-1. Clone this repo to your local machine.
-2. Read `Assignment Requirements` carefully and follow it.
-4. Please commit your entire code to `your own Github repository` 
-5. On your repo, please add step-by-step instructions on how to launch (for both the Backend and Frontend) to the `README.md`
-6. Share your repo link with us via email.
+```
+cd StarterCode/backend
+```
+## Step 2: Install dependencies (and node.js)
+### If you dont have npm or node.js, install them [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+```
+npm install
+```
+## Step 3: Run the backend
+```
+node index.js
+```
+## Step 4: Move to Frontend Directory
+```
+cd ../frontend/
+```
+## Step 5: Install Dependencies
+```
+npm install
+```
+## Step 6: Run React Server on Localhost
+```
+npm start
+```
+## Step 7: View in browser
+If the server doesn't open automatically, check terminal for the localhost port eg. localhost:5001
 
-HAPPY CODING! </br>
-A Round Entertainment
